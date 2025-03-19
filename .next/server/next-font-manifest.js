@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/asami/Desktop/TaTelecom/copy3/app/layout\":[\"static/media/6af342aa06cc8228-s.p.otf\",\"static/media/6689702671015fe4-s.p.ttf\",\"static/media/a1db723976e507d7-s.p.ttf\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
