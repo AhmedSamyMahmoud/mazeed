@@ -83,14 +83,12 @@ export default function Page() {
                 behavior: "smooth",
               })
             }
-            style={{ fontFamily: "Geist" }}
             className="px-4 py-2 text-sm font-button bg-transparent text-black hover:bg-gray-50 border border-gray-200 rounded-md"
             data-oid="_x2ziof"
           >
             Join Waitlist
           </button>
           <button
-            style={{ fontFamily: "Geist" }}
             className="px-4 py-2 text-sm font-button bg-accent text-white hover:bg-accent/90 rounded-md transition-colors"
             data-oid="u-c12o9"
           >
@@ -104,14 +102,14 @@ export default function Page() {
         data-oid="m_eh8wz"
       >
         <h1
-          style={{ fontFamily: "Aime" }}
-          className="text-4xl md:text-5xl font-bold mb-6"
+          style={{ fontFamily: "__Aime_43f459" }}
+          className="text-4xl md:text-5xl  mb-6"
           data-oid="9dh3jbe"
         >
           AI CFO for Creators and Influencers
         </h1>
         <h2
-          style={{ fontFamily: "Aime" }}
+          style={{ fontFamily: "__Aime_43f459" }}
           className="text-2xl md:text-3xl font-heading font-medium mb-6"
           data-oid="d-8awj3"
         >
@@ -137,14 +135,12 @@ export default function Page() {
                 behavior: "smooth",
               })
             }
-            style={{ fontFamily: "Geist" }}
             className="px-8 py-3 font-button bg-accent text-white rounded-md hover:bg-accent/90 transition-colors"
             data-oid="6phqqk."
           >
             Join Waitlist
           </button>
           <button
-            style={{ fontFamily: "Geist" }}
             className="px-8 py-3 font-button border border-gray-200 rounded-md hover:bg-gray-50 transition-colors"
             data-oid="ao60czv"
           >
@@ -217,6 +213,7 @@ export default function Page() {
         data-oid="2jq-::m"
       >
         <h2
+          style={{ fontFamily: "__Aime_43f459" }}
           className="text-3xl font-heading font-bold mb-12 text-center"
           data-oid="5pjtuw:"
         >
@@ -555,6 +552,7 @@ export default function Page() {
       <section className="bg-gray-50 py-16 px-6 md:px-12" data-oid=":aw1oka">
         <div className="max-w-6xl mx-auto" data-oid="y.w_f5-">
           <h2
+            style={{ fontFamily: "__Aime_43f459" }}
             className="text-3xl font-heading font-bold mb-12 text-center"
             data-oid="65dq-3v"
           >
@@ -653,6 +651,7 @@ export default function Page() {
         data-oid="4cfd2ij"
       >
         <h2
+          style={{ fontFamily: "__Aime_43f459" }}
           className="text-3xl font-heading font-bold mb-12 text-center"
           data-oid="f_9qrse"
         >
@@ -834,7 +833,6 @@ export default function Page() {
               <button
                 onClick={sendEmail}
                 disabled={!email.match(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/)}
-                style={{ fontFamily: "Geist" }}
                 className="px-6 py-3 font-button bg-accent text-white rounded-md hover:bg-accent/90 disabled:cursor-not-allowed disabled:bg-gray-300 transition-colors w-full sm:w-auto"
                 data-oid="3j12fd6"
               >
