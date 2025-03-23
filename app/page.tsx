@@ -167,7 +167,8 @@ export default function Page() {
               data-oid="2s.7hz3"
             >
               <h3
-                className="text-3xl font-bold text-accent mb-2"
+                className="text-3xl text-accent mb-2"
+                style={{ fontFamily: "__InterBold_a47a90" }}
                 data-oid="2ck6gqi"
               >
                 135%+
@@ -181,7 +182,8 @@ export default function Page() {
               data-oid="qndqvdn"
             >
               <h3
-                className="text-3xl font-bold text-accent mb-2"
+                className="text-3xl text-accent mb-2"
+                style={{ fontFamily: "__InterBold_a47a90" }}
                 data-oid="99ae_qb"
               >
                 120
@@ -195,7 +197,8 @@ export default function Page() {
               data-oid="jy6ryln"
             >
               <h3
-                className="text-3xl font-bold text-accent mb-2"
+                className="text-3xl text-accent mb-2"
+                style={{ fontFamily: "__InterBold_a47a90" }}
                 data-oid="3gzz97k"
               >
                 $3M+
@@ -214,7 +217,7 @@ export default function Page() {
       >
         <h2
           style={{ fontFamily: "__Aime_43f459" }}
-          className="text-3xl font-heading font-bold mb-12 text-center"
+          className="text-3xl font-heading mb-12 text-center"
           data-oid="5pjtuw:"
         >
           Your 24/7 Financial Team
@@ -232,320 +235,119 @@ export default function Page() {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
           data-oid="us8n7bl"
         >
-          {/* Feature 1 */}
-          <div
-            className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
-            data-oid="rgkssvc"
-          >
-            <div className="flex items-center mb-4" data-oid="0hpbaql">
-              <div
-                className="w-10 h-10 bg-accent/10 text-accent rounded-full flex items-center justify-center mr-3"
-                data-oid="1s._9q1"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  data-oid="chzn9:q"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                    clipRule="evenodd"
-                    data-oid="q625dzm"
-                  />
-                </svg>
+          {[
+            {
+              title: "Content Transformer",
+              description:
+                "Mazeed adapts your best-performing content across YouTube, TikTok, and Instagram to maximize revenue without extra creation work.",
+              highlight: "2-5X Revenue Growth",
+              details:
+                "Mazeed identifies what's working on one platform and reformats it for others, maintaining your message while optimizing for each platform's algorithm.",
+              iconPath:
+                "M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z",
+            },
+            {
+              title: "Peak Post Timer",
+              description:
+                "Mazeed ensures you post at the perfect time on every platform to maximize views, engagement, and algorithm boost.",
+              highlight: "Up to 3X View & Revenue Increase",
+              details:
+                "Mazeed analyzes your data to identify your unique optimal posting windows, not generic 'best times.'",
+              iconPath:
+                "M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z",
+            },
+            {
+              title: "Profit Gap Finder",
+              description:
+                "Mazeed discovers high-CPM content opportunities that can multiply your earnings with minimal additional work.",
+              highlight: "5-20X Strategic Content Revenue",
+              details:
+                "Mazeed identifies content niches with unusually high CPM rates – topics with strong advertiser demand but low creator supply.",
+              iconPath:
+                "M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z",
+            },
+            {
+              title: "Global Reach Maximizer",
+              description:
+                "Mazeed uses AI to translates your videos to speak in different languages with zero effort.",
+              highlight: "2-7X International Revenue Growth",
+              details:
+                "Mazeed identifies your highest-potential international markets and automatically translates your videos to speak in different languages.",
+              iconPath:
+                "M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z",
+            },
+            {
+              title: "Affiliate Booster",
+              description:
+                "Mazeed transforms your affiliate marketing with AI-optimized product selection and promotion techniques.",
+              highlight: "3-8X Affiliate Revenue Increase",
+              details:
+                "Mazeed continuously analyzes your affiliate performance to identify what products, price points, and presentation styles convert best with your specific audience.",
+              iconPath:
+                "M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z",
+            },
+            {
+              title: "Content Recycler",
+              description:
+                "Mazeed transforms your existing content into books, courses, and other products that create entirely new revenue streams.",
+              highlight: "4-12X Content ROI",
+              details:
+                "Mazeed identifies high-value themes in your content library that have strong repurposing potential for new revenue-generating assets.",
+              iconPath:
+                "M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z",
+            },
+            {
+              title: "Creator Cash Advance",
+              description:
+                "Mazeed gives you immediate access to your future earnings with AI-powered forecasting and creator-friendly repayment.",
+              highlight: "2-5X Growth Acceleration",
+              details:
+                "Mazeed forecasts your earnings across all platforms and provides advances against projected income with repayment aligned to your revenue cycle.",
+              iconPath:
+                "M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z",
+            },
+          ].map((feature, index) => (
+            <div
+              key={index}
+              className={`bg-white p-6 flex flex-col justify-between rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow ${
+                index === 6
+                  ? "col-span-1 md:col-span-3 lg:col-span-1 lg:col-start-2 mx-auto md:max-w-md lg:max-w-none"
+                  : ""
+              }`}
+              data-oid={`feature-${index}`}
+            >
+              <div className="h-[45%] mb-4">
+                <div className="flex items-center mb-4">
+                  <div className="w-10 h-10 bg-accent/10 text-accent rounded-full flex items-center justify-center mr-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path d={feature.iconPath} />
+                    </svg>
+                  </div>
+                  <h3
+                    className="text-xl"
+                    style={{ fontFamily: "__InterBold_a47a90" }}
+                  >
+                    {feature.title}
+                  </h3>
+                </div>
+                <p className="text-gray-600 mb-4">{feature.description}</p>
               </div>
-              <h3 className="text-xl font-heading font-bold" data-oid="-pjn6d_">
-                Content Transformer
-              </h3>
-            </div>
-            <p className="text-gray-600 mb-4" data-oid="vnkyxdi">
-              Mazeed adapts your best-performing content across YouTube, TikTok,
-              and Instagram to maximize revenue without extra creation work.
-            </p>
-            <div className="bg-gray-50 p-4 rounded-lg" data-oid="3z_em2:">
-              <h4 className="font-bold mb-2 text-accent" data-oid="c6i63p9">
-                2-5X Revenue Growth
-              </h4>
-              <p className="text-gray-600" data-oid="6y1kue7">
-                Mazeed identifies what's working on one platform and reformats
-                it for others, maintaining your message while optimizing for
-                each platform's algorithm.
-              </p>
-            </div>
-          </div>
-          {/* Feature 2 */}
-          <div
-            className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
-            data-oid="zw_tzut"
-          >
-            <div className="flex items-center mb-4" data-oid="0cugyll">
-              <div
-                className="w-10 h-10 bg-accent/10 text-accent rounded-full flex items-center justify-center mr-3"
-                data-oid="-802-fh"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  data-oid="mwx-8j4"
+              <div className="bg-gray-50 p-4 h-[55%] rounded-lg">
+                <h4
+                  className="mb-2 text-accent"
+                  style={{ fontFamily: "__InterBold_a47a90" }}
                 >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
-                    clipRule="evenodd"
-                    data-oid="eszj2d2"
-                  />
-                </svg>
+                  {feature.highlight}
+                </h4>
+                <p className="text-gray-600">{feature.details}</p>
               </div>
-              <h3 className="text-xl font-bold" data-oid="j-9c9c2">
-                Peak Post Timer
-              </h3>
             </div>
-            <p className="text-gray-600 mb-4" data-oid="frdwjha">
-              Mazeed ensures you post at the perfect time on every platform to
-              maximize views, engagement, and algorithm boost.
-            </p>
-            <div className="bg-gray-50 p-4 rounded-lg" data-oid="w6b.mrc">
-              <h4 className="font-bold mb-2 text-accent" data-oid="jyugy6k">
-                Up to 3X View & Revenue Increase
-              </h4>
-              <p className="text-gray-600" data-oid="qbha.-y">
-                Mazeed analyzes your data to identify your unique optimal
-                posting windows, not generic 'best times.'
-              </p>
-            </div>
-          </div>
-          {/* Feature 3 */}
-          <div
-            className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
-            data-oid="zvownl:"
-          >
-            <div className="flex items-center mb-4" data-oid="0j2jez-">
-              <div
-                className="w-10 h-10 bg-accent/10 text-accent rounded-full flex items-center justify-center mr-3"
-                data-oid="iobmc63"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  data-oid="cj4nf9:"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                    clipRule="evenodd"
-                    data-oid=".faycb1"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold" data-oid="tgglzr9">
-                Profit Gap Finder
-              </h3>
-            </div>
-            <p className="text-gray-600 mb-4" data-oid="3frfbic">
-              Mazeed discovers high-CPM content opportunities that can multiply
-              your earnings with minimal additional work.
-            </p>
-            <div className="bg-gray-50 p-4 rounded-lg" data-oid=":pvs_95">
-              <h4 className="font-bold mb-2 text-accent" data-oid="57v7a9w">
-                5-20X Strategic Content Revenue
-              </h4>
-              <p className="text-gray-600" data-oid="4plyob-">
-                Mazeed identifies content niches with unusually high CPM rates –
-                topics with strong advertiser demand but low creator supply.
-              </p>
-            </div>
-          </div>
-          {/* Feature 4 */}
-          <div
-            className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
-            data-oid="-.if7q9"
-          >
-            <div className="flex items-center mb-4" data-oid="jcouez_">
-              <div
-                className="w-10 h-10 bg-accent/10 text-accent rounded-full flex items-center justify-center mr-3"
-                data-oid="4xjmu9."
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  data-oid="uudnyvc"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
-                    clipRule="evenodd"
-                    data-oid="e3bao1g"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold" data-oid="gqkcly.">
-                Global Reach Maximizer
-              </h3>
-            </div>
-            <p className="text-gray-600 mb-4" data-oid="b:eyfft">
-              Mazeed uses AI to translates your videos to speak in different
-              languages with zero effort.
-            </p>
-            <div className="bg-gray-50 p-4 rounded-lg" data-oid=":b2cfmt">
-              <h4 className="font-bold mb-2 text-accent" data-oid="q26i286">
-                2-7X International Revenue Growth
-              </h4>
-              <p className="text-gray-600" data-oid="63svvj7">
-                Mazeed identifies your highest-potential international markets
-                and automatically translates your videos to speak in different
-                languages.
-              </p>
-            </div>
-          </div>
-          {/* Feature 5 */}
-          <div
-            className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
-            data-oid="3rc-60q"
-          >
-            <div className="flex items-center mb-4" data-oid="md.9:zo">
-              <div
-                className="w-10 h-10 bg-accent/10 text-accent rounded-full flex items-center justify-center mr-3"
-                data-oid="yef1b.i"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  data-oid="ttira33"
-                >
-                  <path
-                    d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z"
-                    data-oid="pt0kcge"
-                  />
-
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z"
-                    clipRule="evenodd"
-                    data-oid="6_ie1xz"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold" data-oid="oepeyj3">
-                Affiliate Booster
-              </h3>
-            </div>
-            <p className="text-gray-600 mb-4" data-oid="rl91ie2">
-              Mazeed transforms your affiliate marketing with AI-optimized
-              product selection and promotion techniques.
-            </p>
-            <div className="bg-gray-50 p-4 rounded-lg" data-oid="mcp6467">
-              <h4 className="font-bold mb-2 text-accent" data-oid="0vqww89">
-                3-8X Affiliate Revenue Increase
-              </h4>
-              <p className="text-gray-600" data-oid="t3n_-dg">
-                Mazeed continuously analyzes your affiliate performance to
-                identify what products, price points, and presentation styles
-                convert best with your specific audience.
-              </p>
-            </div>
-          </div>
-          {/* Feature 6 */}
-          <div
-            className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
-            data-oid="80ytq1x"
-          >
-            <div className="flex items-center mb-4" data-oid="491ms.u">
-              <div
-                className="w-10 h-10 bg-accent/10 text-accent rounded-full flex items-center justify-center mr-3"
-                data-oid="k-0aqjq"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  data-oid="0vnj5:e"
-                >
-                  <path
-                    d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"
-                    data-oid=".mf:h9n"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold" data-oid="i17i84g">
-                Content Recycler
-              </h3>
-            </div>
-            <p className="text-gray-600 mb-4" data-oid="-f0ace_">
-              Mazeed transforms your existing content into books, courses, and
-              other products that create entirely new revenue streams.
-            </p>
-            <div className="bg-gray-50 p-4 rounded-lg" data-oid="z_.q7br">
-              <h4 className="font-bold mb-2 text-accent" data-oid="qmvo1rd">
-                4-12X Content ROI
-              </h4>
-              <p className="text-gray-600" data-oid="s864:5v">
-                Mazeed identifies high-value themes in your content library that
-                have strong repurposing potential for new revenue-generating
-                assets.
-              </p>
-            </div>
-          </div>
-          {/* Feature 7 */}
-          <div
-            className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow col-span-1 md:col-span-3 lg:col-span-1 lg:col-start-2 mx-auto md:max-w-md lg:max-w-none"
-            data-oid="y2_blb8"
-          >
-            <div className="flex items-center mb-4" data-oid="5yx9l0e">
-              <div
-                className="w-10 h-10 bg-accent/10 text-accent rounded-full flex items-center justify-center mr-3"
-                data-oid="aqv_rkv"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  data-oid="a.koz:v"
-                >
-                  <path
-                    d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z"
-                    data-oid="nmi0agz"
-                  />
-
-                  <path
-                    fillRule="evenodd"
-                    d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z"
-                    clipRule="evenodd"
-                    data-oid="o54:n:d"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold" data-oid=":em5kgc">
-                Creator Cash Advance
-              </h3>
-            </div>
-            <p className="text-gray-600 mb-4" data-oid="h3z.igp">
-              Mazeed gives you immediate access to your future earnings with
-              AI-powered forecasting and creator-friendly repayment.
-            </p>
-            <div className="bg-gray-50 p-4 rounded-lg" data-oid="08.-4t_">
-              <h4 className="font-bold mb-2 text-accent" data-oid="boj2sxr">
-                2-5X Growth Acceleration
-              </h4>
-              <p className="text-gray-600" data-oid="it2hd01">
-                Mazeed forecasts your earnings across all platforms and provides
-                advances against projected income with repayment aligned to your
-                revenue cycle.
-              </p>
-            </div>
-          </div>
+          ))}
         </div>
       </section>
       {/* How It Works Section */}
@@ -553,7 +355,7 @@ export default function Page() {
         <div className="max-w-6xl mx-auto" data-oid="y.w_f5-">
           <h2
             style={{ fontFamily: "__Aime_43f459" }}
-            className="text-3xl font-heading font-bold mb-12 text-center"
+            className="text-3xl font-heading mb-12 text-center"
             data-oid="65dq-3v"
           >
             How Mazeed Works
@@ -574,12 +376,17 @@ export default function Page() {
               data-oid="mo975tf"
             >
               <div
-                className="w-12 h-12 bg-accent text-white rounded-full flex items-center justify-center mb-6 font-bold text-xl"
+                className="w-12 h-12 bg-accent text-white rounded-full flex items-center justify-center mb-6 text-xl"
+                style={{ fontFamily: "__InterBold_a47a90" }}
                 data-oid="y0r7flw"
               >
                 1
               </div>
-              <h3 className="text-xl font-bold mb-4" data-oid="0qsg1-p">
+              <h3
+                className="text-xl mb-4"
+                style={{ fontFamily: "__InterBold_a47a90" }}
+                data-oid="0qsg1-p"
+              >
                 Connect Your Platforms
               </h3>
               <p className="text-gray-600" data-oid="tpfu.8:">
@@ -592,12 +399,17 @@ export default function Page() {
               data-oid="f4-06ey"
             >
               <div
-                className="w-12 h-12 bg-accent text-white rounded-full flex items-center justify-center mb-6 font-bold text-xl"
+                className="w-12 h-12 bg-accent text-white rounded-full flex items-center justify-center mb-6 text-xl"
+                style={{ fontFamily: "__InterBold_a47a90" }}
                 data-oid="vdyedr1"
               >
                 2
               </div>
-              <h3 className="text-xl font-bold mb-4" data-oid="o_y62wz">
+              <h3
+                className="text-xl mb-4"
+                style={{ fontFamily: "__InterBold_a47a90" }}
+                data-oid="o_y62wz"
+              >
                 AI Analysis & Insights
               </h3>
               <p className="text-gray-600" data-oid="h7mo3dl">
@@ -610,12 +422,17 @@ export default function Page() {
               data-oid="bpmfpnh"
             >
               <div
-                className="w-12 h-12 bg-accent text-white rounded-full flex items-center justify-center mb-6 font-bold text-xl"
+                className="w-12 h-12 bg-accent text-white rounded-full flex items-center justify-center mb-6 text-xl"
+                style={{ fontFamily: "__InterBold_a47a90" }}
                 data-oid="7v._buc"
               >
                 3
               </div>
-              <h3 className="text-xl font-bold mb-4" data-oid="j9qnfod">
+              <h3
+                className="text-xl mb-4"
+                style={{ fontFamily: "__InterBold_a47a90" }}
+                data-oid="j9qnfod"
+              >
                 Strategic Recommendations
               </h3>
               <p className="text-gray-600" data-oid="-r27yin">
@@ -628,12 +445,17 @@ export default function Page() {
               data-oid="k4ok_u1"
             >
               <div
-                className="w-12 h-12 bg-accent text-white rounded-full flex items-center justify-center mb-6 font-bold text-xl"
+                className="w-12 h-12 bg-accent text-white rounded-full flex items-center justify-center mb-6 text-xl"
+                style={{ fontFamily: "__InterBold_a47a90" }}
                 data-oid="pgl78:d"
               >
                 4
               </div>
-              <h3 className="text-xl font-bold mb-4" data-oid="mm9o17:">
+              <h3
+                className="text-xl mb-4"
+                style={{ fontFamily: "__InterBold_a47a90" }}
+                data-oid="mm9o17:"
+              >
                 Implementation & Tracking
               </h3>
               <p className="text-gray-600" data-oid="n6-jurx">
@@ -652,7 +474,7 @@ export default function Page() {
       >
         <h2
           style={{ fontFamily: "__Aime_43f459" }}
-          className="text-3xl font-heading font-bold mb-12 text-center"
+          className="text-3xl font-heading mb-12 text-center"
           data-oid="f_9qrse"
         >
           Success Stories
@@ -680,13 +502,17 @@ export default function Page() {
             </p>
             <div className="flex items-center mb-4" data-oid="ygvfiwl">
               <div
-                className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center mr-3 font-bold"
+                className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center mr-3"
+                style={{ fontFamily: "__InterBold_a47a90" }}
                 data-oid="x2xcp65"
               >
                 A
               </div>
               <div data-oid="g3uio_p">
-                <h4 className="font-bold" data-oid="6iswfpr">
+                <h4
+                  style={{ fontFamily: "__InterBold_a47a90" }}
+                  data-oid="6iswfpr"
+                >
                   Alex C.
                 </h4>
                 <p className="text-sm text-gray-500" data-oid="os:db7f">
@@ -699,7 +525,10 @@ export default function Page() {
                 <p className="text-gray-500" data-oid="v3va1gk">
                   Before
                 </p>
-                <p className="font-bold" data-oid="5x-90u9">
+                <p
+                  style={{ fontFamily: "__InterBold_a47a90" }}
+                  data-oid="5x-90u9"
+                >
                   $8,500/mo
                 </p>
               </div>
@@ -707,7 +536,10 @@ export default function Page() {
                 <p className="text-gray-500" data-oid="1d0x2ak">
                   After
                 </p>
-                <p className="font-bold" data-oid="26t61ll">
+                <p
+                  style={{ fontFamily: "__InterBold_a47a90" }}
+                  data-oid="26t61ll"
+                >
                   $17,200/mo
                 </p>
               </div>
@@ -725,13 +557,17 @@ export default function Page() {
             </p>
             <div className="flex items-center mb-4" data-oid="c_hqvmb">
               <div
-                className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center mr-3 font-bold"
+                className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center mr-3"
+                style={{ fontFamily: "__InterBold_a47a90" }}
                 data-oid="xc.3c9c"
               >
                 S
               </div>
               <div data-oid="j43io._">
-                <h4 className="font-bold" data-oid="8awy0a2">
+                <h4
+                  style={{ fontFamily: "__InterBold_a47a90" }}
+                  data-oid="8awy0a2"
+                >
                   Sarah J.
                 </h4>
                 <p className="text-sm text-gray-500" data-oid="fm267n8">
@@ -744,7 +580,10 @@ export default function Page() {
                 <p className="text-gray-500" data-oid="ep1--7s">
                   Before
                 </p>
-                <p className="font-bold" data-oid="_3nrxe6">
+                <p
+                  style={{ fontFamily: "__InterBold_a47a90" }}
+                  data-oid="_3nrxe6"
+                >
                   $12,000/mo
                 </p>
               </div>
@@ -752,7 +591,10 @@ export default function Page() {
                 <p className="text-gray-500" data-oid="low34:r">
                   After
                 </p>
-                <p className="font-bold" data-oid="7p.gtf_">
+                <p
+                  style={{ fontFamily: "__InterBold_a47a90" }}
+                  data-oid="7p.gtf_"
+                >
                   $19,300/mo
                 </p>
               </div>
@@ -770,13 +612,17 @@ export default function Page() {
             </p>
             <div className="flex items-center mb-4" data-oid="ibetvnd">
               <div
-                className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center mr-3 font-bold"
+                className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center mr-3"
+                style={{ fontFamily: "__InterBold_a47a90" }}
                 data-oid="88vhdm_"
               >
                 M
               </div>
               <div data-oid="j125kt1">
-                <h4 className="font-bold" data-oid="lcjct4m">
+                <h4
+                  style={{ fontFamily: "__InterBold_a47a90" }}
+                  data-oid="lcjct4m"
+                >
                   Marcus W.
                 </h4>
                 <p className="text-sm text-gray-500" data-oid="79p_y79">
@@ -789,7 +635,10 @@ export default function Page() {
                 <p className="text-gray-500" data-oid="xcbempr">
                   Before
                 </p>
-                <p className="font-bold" data-oid="6_44sll">
+                <p
+                  style={{ fontFamily: "__InterBold_a47a90" }}
+                  data-oid="6_44sll"
+                >
                   $22,000/mo
                 </p>
               </div>
@@ -797,7 +646,10 @@ export default function Page() {
                 <p className="text-gray-500" data-oid="m.0nv4_">
                   After
                 </p>
-                <p className="font-bold" data-oid="ekziqvh">
+                <p
+                  style={{ fontFamily: "__InterBold_a47a90" }}
+                  data-oid="ekziqvh"
+                >
                   $37,500/mo
                 </p>
               </div>
@@ -813,7 +665,8 @@ export default function Page() {
             data-oid="d2uf8sr"
           >
             <h2
-              className="text-2xl font-heading font-bold mb-6"
+              className="text-2xl font-heading mb-6"
+              style={{ fontFamily: "__InterBold_a47a90" }}
               data-oid="l7w4i85"
             >
               Ready to multiply your creator revenue?

@@ -9,6 +9,7 @@ import "./globals.css";
 //   weight: "400",
 //   subsets: ["latin"],
 // });
+const InterBold = localFont({ src: "../public/fonts/Inter_18pt-Bold.ttf" });
 const Inter = localFont({ src: "../public/fonts/Inter.ttf" });
 const Aime = localFont({ src: "../public/fonts/Aime-Regular-Trial.otf" });
 const Geist = localFont({ src: "../public/fonts/Geist-Regular.ttf" });
@@ -25,7 +26,7 @@ export default function RootLayout({
       lang="en"
       data-oid="qd9abur"
       style={{ fontWeight: 300 }}
-      className={` ${Inter.className} `}
+      className={` ${InterBold.className} ${Inter.className}  `}
     >
       <body className="font-body" data-oid="-2x8jaj">
         {children}
